@@ -23,9 +23,6 @@
   "scripts": {
     "test": "grunt test"
   },
-  "dependencies": {
-    "criticalcss": "2.1.0"
-  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
@@ -35,5 +32,8 @@
   },
   "keywords": [
     "gruntplugin"
-  ]
+  ],
+  "dependencies": {
+    "criticalcss": "github:samatsav/criticalCSS#v2.1.1"
+  }
 }
